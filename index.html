@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhula Beauty Parlor - Professional Makeup & Beauty Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-spa"></i>
+                    <span>Dhula</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Dhula Beauty Parlor</h1>
+            <p>We make the world look beautiful</p>
+            <a href="#contact" class="cta-button">Book an Appointment</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to Dhula Beauty Parlor, where we believe that beauty is more than just a look—it's a confidence booster. With years of experience and a team of dedicated professionals, we are committed to providing you with exceptional beauty services.</p>
+                    <p>Whether you're preparing for a special occasion or simply want to pamper yourself, we offer a wide range of beauty treatments designed to enhance your natural beauty.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check-circle"></i> Expert Professionals</li>
+                        <li><i class="fas fa-check-circle"></i> Premium Products</li>
+                        <li><i class="fas fa-check-circle"></i> Hygienic Environment</li>
+                        <li><i class="fas fa-check-circle"></i> Affordable Pricing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-crown"></i>
+                    <h3>Bridal Makeup</h3>
+                    <p>Complete bridal packages with pre-bridal treatments and HD makeup</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Facial Treatments</h3>
+                    <p>Professional facials for all skin types using premium products</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Makeup Services</h3>
+                    <p>Professional makeup for events, parties, and special occasions</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-cut"></i>
+                    <h3>Hair Care</h3>
+                    <p>Cutting, coloring, styling, and hair treatments</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Body Treatments</h3>
+                    <p>Relaxing spa treatments and body care services</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hand-sparkles"></i>
+                    <h3>Nail Art</h3>
+                    <p>Creative nail designs and professional manicure/pedicure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="bride.jpeg" alt="Bridal Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Bridal Makeup</h3>
+                        <p>Stunning bridal transformations</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="image.jpeg" alt="Party Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Party Makeup</h3>
+                        <p>Evening and event makeup</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Makeup.jpeg" alt="Creative Makeup">
+                    <div class="portfolio-overlay">
+                        <h3>Creative Makeup</h3>
+                        <p>Artistic and experimental looks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment Section -->
+    <section class="appointment">
+        <div class="container">
+            <h2 class="section-title">Book Your Appointment</h2>
+            <form class="appointment-form" id="appointmentForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Your Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <select required>
+                        <option value="">Select a Service</option>
+                        <option value="bridal">Bridal Makeup</option>
+                        <option value="facial">Facial Treatments</option>
+                        <option value="makeup">Makeup Services</option>
+                        <option value="hair">Hair Care</option>
+                        <option value="body">Body Treatments</option>
+                        <option value="nails">Nail Art</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="date" required>
+                </div>
+                <button type="submit" class="submit-btn">Book Appointment</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919819558892">+91 9819558892</a></p>
+                            <p><a href="tel:+917977579522">+91 7977579522</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:Binaltparmar@gmail.com">Binaltparmar@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Sec 35 E, Shop 4, SR Park Building<br>Kharghar, Navi Mumbai<br>Maharashtra - 410210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon - Sun: 10:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Dhula Beauty Parlor. All rights reserved.</p>
+            <p>Thank you for choosing us. We look forward to seeing you again! ✨</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
